@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        .space {
+            margin: 60px 120px;
+        }
+
+        .sec-1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            position: relative;
+            margin: 3px 5px;
+            cursor: pointer;
+            width: 265px;
+            height: 245px;
+            overflow: hidden;
+            background: rgb(65 65 65 / 9%);
+            box-shadow: 0px 2px 1px black;
+            border-radius: 15px;
+        }
+
+        .box img {
+            width: 100%;
+        }
+
+        .white {
+            position: absolute;
+            bottom: 3px;
+            width: 100%;
+            height: 25%;
+            background: white;
+        }
+
+        .white p {
+            font-size: 19px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            word-spacing: 0.7px;
+            color: rgb(56, 56, 56);
+        }
+
+        .sec-2 h2 {
+            font-size: 38px;
+            font-weight: lighter;
+            margin-bottom: 10px;
+        }
+
+        .sec-2 div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .sec-2 h6 {
+            margin: 0;
+            font-size: 17px;
+            font-weight: lighter;
+            color: rgb (99, 98, 98);
+
+        }
+
+        .sec-3 {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .box1 {
+            position: relative;
+            width: 270px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .box1 div {
+            position: absolute;
+            background: linear-gradient(transparent, black);
+            width: 100%;
+            height: 25%;
+            display: flex;
+            align-items: flex-end;
+            bottom: 0;
+        }
+
+        .box1 div span:first-child {
+            color: white;
+            font-size: 18px;
+            display: -webkit-inline-box;
+            padding: 0 0 5px 15px
+        }
+
+        .box1 i {
+            color: white;
+            padding-bottom: 15px;
+
+        }
+
+        .box1 img {
+            width: 270px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .h1 {
+            font-size: 39px;
+            font-weight: lighter;
+            text-align: center;
+            margin-top: 96px;
+        }
+
+        .boxes {
+            border: 1px solid rgb(235, 233, 233);
+            box-shadow: 1px 1px 1px rgb(226, 233, 233);
+            width: 340px;
+            height: 60px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .sec-4 {
+            grid-row-gap: 30px;
+            display: grid;
+            grid-template-columns: 340px 340px 340px;
+            justify-content: center;
+            grid-column-gap: 30px;
+        }
+
+        .boxes div {
+            margin: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="space">
+        <div class="sec-1">
+            <div class="box">
+                <div class="white">
+                    <p>online food order</p>
+                </div>
+                <img src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>online food order</p>
+                </div>
+                <img src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>online food order</p>
+                </div>
+                <img src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>online food order</p>
+                </div>
+                <img src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+            </div>
+
+        </div>
+        <div class="sec-2">
+            <h2>Collections</h2>
+            <div>
+                <h6> Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</h6>
+                <span>All collections in Delhi NCR &nbsp;<i class="fas fa-caret-right"></i></span>
+            </div>
+        </div>
+        <div class="sec-3">
+            <div class="box1">
+                <div><span>news Opened <br> <span> 17 Places <i class="fas fa-caret-right"></i></span> </span></div>
+                <img
+                    src="https://images.unsplash.com/photo-1577056922428-a511301a562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+            </div>
+            <div class="box1">
+                <div><span>Trending This Week <br> <span>30 Places &nbsp; <i class="fas fa-caret-right"></i></span>
+                    </span>
+                </div>
+                <img
+                    src="https://st.focusedcollection.com/18590116/i/650/focused_209046464-stock-photo-closeup-view-variety-food-served.jpg">
+            </div>
+            <div class="box1">
+                <div><span>Best of Delhi NCR <br> <span>157 Places &nbsp; <i class="fas fa-caret-right"></i></span>
+                    </span>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Nadi_Sri_Siva_Subramaniya_Temple.jpg">
+            </div>
+            <div class="box1">
+                <div><span>Great Cafes <br> <span>28 Places &nbsp; <i class="fas fa-caret-right"></i></span> </span>
+                </div>
+                <img
+                    src="https://content3.jdmagicbox.com/comp/def_content/lighting-dealers/shutterstock-315700163-lighting-dealers-1-xz4up.jpg?clr=443922">
+            </div>
+        </div>
+        <h1 class="h1">Popular localities in and around <span style="font-weight: bold;"> Delhi NCR </span></h1>
+        <div class="sec-4">
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div><span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            
+             
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

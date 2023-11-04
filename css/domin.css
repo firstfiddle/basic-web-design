@@ -1,0 +1,217 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ nav {
+     width: 100%;
+     height: 41px;
+     background: rgb(0 102 167);
+     display: flex;
+     justify-content: space-between;
+     padding: 4px 50px;
+ }
+
+ .my {
+     color: white;
+     font-size: 16px;
+     text-transform: capitalize;
+     margin: 0 15px;
+ }
+
+ h4 a {
+     text-decoration: none;
+     font-size: 12px;
+     color: wheat;
+
+ }
+
+ h4 {
+     color: white;
+     font-size: 20px;
+     margin: -8px 0 0 38px;
+ }
+
+ nav a:hover {
+     color: red;
+ }
+
+ .banner {
+     width: 100%;
+     height: 463px;
+     background: #f2f2f2;
+     display: flex;
+ }
+
+ .bn1 {
+     width: 50%;
+     height: 463px;
+
+ }
+
+ .bn2 {
+     width: 50%;
+     height: 463px;
+
+ }
+
+ .img1 {
+     width: 90%;
+     height: 346px;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+     padding: 5rem 0 0 5rem;
+ }
+
+ .img2 {
+     width: 100%;
+     height: 107px;
+
+ }
+
+ .logo {
+     width: 263px;
+     height: 52px;
+     margin-bottom: 6px;
+     background: url(https://pizzaonline.dominos.co.in/static/assets/dominosLogoBlue.png) no-repeat;
+     background-size: 100%;
+ }
+
+ .text {
+     width: 80%;
+     height: 55px;
+     color: rgb(106, 103, 110);
+     font-size: 18px;
+     line-height: 32px;
+     font-family: math;
+ }
+
+ .op {
+     width: 608px;
+     height: 16px;
+     display: flex;
+     margin-top: 3rem;
+ }
+
+ .enter {
+     width: 90%;
+     height: 45px;
+     margin-top: 24px;
+     border: 1px solid rgb(182, 223, 238);
+     background: rgb(255, 255, 255);
+     border-radius: 3px;
+     display: flex;
+     align-items: center;
+ }
+
+ .op1 a {
+     text-decoration: none;
+     color: #0078ae;
+     margin-left: 2px;
+     font-weight: 900;
+ }
+
+ .enter img {
+     margin: 0.5rem 0.8rem;
+     width: 0.8rem;
+     height: 1.3rem
+ }
+
+ .enter input {
+     width: 100%;
+     height: 2.7rem;
+     outline: none;
+     cursor: pointer;
+     border: 0px;
+ }
+
+ .enter div {
+     width: 162px;
+     height: 32px;
+     background: #00ab00;
+     margin-right: 8px;
+     border-radius: 3px;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+ }
+
+ section {
+     width: 100%;
+     height: 180px;
+     background: #f2f2f2;
+     padding: 17px 76px;
+ }
+
+ section h2 {
+     color: #1a1919ba;
+     font-size: 17px;
+     margin-bottom: 13px;
+ }
+
+ footer {
+     width: 100%;
+     height: 150px;
+     background: rgb(34, 46, 58);
+     display: flex;
+     align-items: center;
+ }
+
+ .ft1 {
+     width: 100%;
+     height: 148px;
+     /* background-color: red; */
+     padding: 15px 73px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .ft12 {
+     /* background: yellow; */
+     width: 66%;
+     height: 118px;
+ }
+
+ .ft123 {
+     margin-left: 9.5rem;
+     height: 100px;
+     width: 30%;
+     /* background: green; */
+     margin-top: 8px;
+ }
+
+ .ft12 ul li {
+     list-style: none;
+ }
+
+ .menu {
+     width: 65%;
+     height: 28%;
+     display: flex;
+     justify-content: space-around;
+     color: rgb(131, 154, 177);
+     font-size: 1rem;
+     margin: 45px 0 0 0px;
+ }
+
+ .ft123 div:first-child {
+     color: #78a187;
+     margin-bottom: 2.25rem;
+     cursor: pointer;
+ }
+
+ .last {
+     width: 100%;
+     height: 43px;
+     background: #1a2735;
+     border-top: 1px dotted white;
+ }
+
+ .last div {
+     display: flex;
+     justify-content: center;
+     padding: 12px 0;
+     color: #8f7676;
+ }

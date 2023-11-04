@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css ">
+</head>
+<style>
+    table,tr,th,td{
+        border: 2px solid black;
+        width: 400px;
+        height: 36px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    th{
+        background: blue;
+        color: whitesmoke;
+    }
+    th:hover{
+        background: red;
+        transition: 1s;
+    }
+    td:hover{
+        background: gray;
+    }
+    tr:hover{
+        background: yellow;
+        transition: 1s;
+    }
+    .nice :hover{
+        background: white;
+
+    }
+
+</style>
+<body>
+    <center>
+    <table>
+        <thead>
+            <tr>
+            <th>id</th>
+            <th>name </th>
+            <th>rollno</th>
+            <th>city</th>
+            <th>add</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ravi</td>
+                <td>420</td>
+                <td>Morena</td>
+                <td>islampura</td>
+                <td class="nice">
+                    <a href=""><i class="fa-regular fa-pen-to-square" style="color: black;"></i></a>
+                    <a href=""><i class="fa-solid fa-eye" style="color: blueviolet;"></i></a>
+                    <a href=""> <i class="fa-solid fa-trash" style="color: red;"></i></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>

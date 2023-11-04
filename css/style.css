@@ -1,0 +1,17 @@
+body{
+    background: #e3e6e6;
+}
+.a{
+    border: 2px solid white;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background: white;
+}
+.b{
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}

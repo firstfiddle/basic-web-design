@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* screen fit screen pr kam karegi */
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 77px;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.banner {
+    background: url(../image/banner.jpeg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    /* ye do property img ko background me set karne me use karte h */
+}
+
+.menu a {
+    text-decoration: none;
+    color: deeppink;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0 20px;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    color: #8b1005;
+    font-size: 30px;
+    background-color: #fc70a8;
+    width: 52%;
+    margin: auto;
+    position: relative;
+    top: 226px;
+    left: 26px;
+    border-radius: 11px;
+}
+
+
+.banner h4 {
+    position: relative;
+    top: 230px;
+    font-size: 22px;
+    color: #a03b31de;
+}
+
+.banner input {
+    background: black;
+    width: 600px;
+    height: 45px;
+    margin: auto;
+    position: relative;
+    top: 244px;
+    left: 69px;
+    box-shadow: 3px 4px 8px red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 16px;
+}
+
+::placeholder {
+    color: #8b1005;
+}
+
+.news {
+
+    padding: 13px 190px;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    background: rgb(254 112 168)url(http://ayushmanup.in/assets/images/city_background.png);
+}
+
+.news marquee {
+    color: #8b1005;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+.about {
+    background: white;
+    padding: 150px 250px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+    text-shadow: 3px 3px 2px deeppink;
+}
+
+.about p {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 24px;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+
+button {
+    width: 149px;
+    height: 41px;
+    background: deeppink;
+    border: none;
+    border-radius: 5px;
+    font-family: 15px;
+    margin-top: 8px;
+
+}
+
+.press {
+    background: url(../image/press.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 500px 244px;
+    text-align: center;
+
+
+}
+
+.team {
+    background: url(../image/team.jpg);
+    width: 100%;
+    height: 1110px;
+    background-position: center;
+    background-size: cover;
+    padding: 500px 244px;
+    text-align: center;
+
+}
+
+.contact {
+    background: deeppink;
+    width: 100%;
+    padding: 150px 250px;
+    text-align: center;
+    height: 500px;
+
+}
+
+footer {
+    background: #c1c1c1;
+    padding: 70px 100px;
+}
+
+.team h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 1px 2px 3px #00ff70;
+    font-size: 27px;
+    margin-bottom: 12px;
+
+}
+
+.team P {
+    color: black;
+    font-size: 19px;
+    font-family: ui-serif;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 11px;
+}
+.press h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+    text-shadow: 3px 3px 2px deeppink;
+}
+.press p {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 24px;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+.contact h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 1px 2px 3px #00ff70;
+    font-size: 27px;
+    margin-bottom: 12px;
+ }
+.contact p{
+        color: black;
+        font-size: 19px;
+        font-family: ui-serif;
+        line-height: 25px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        word-spacing: 11px;
+    }
+    footer {
+        padding: 40px 120px;
+        background-color: rgb(244, 244, 253);
+    }
+    
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .first-1 {
+        display: flex;
+    }
+    
+    .first-1 span {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 20px;
+        font-weight: 400;
+    }
+    
+    .second {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+    }
+    
+    .second div {
+        width: 200px;
+    }
+    
+    .second h4 {
+        font-weight: lighter;
+        color: rgb(22, 22, 22);
+        white-space: nowrap;
+    }
+    
+    .second a {
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 7px;
+        white-space: nowrap;
+         text-decoration: none; /* is property ka use
+        a use karte samay bydefult neech ki line ko hatane k liye */
+        color: gray;
+        font-size: 0.9rem;
+    }
+    
+    .second img {
+        width: 137px;
+        height: 40px;
+        margin-top: 11px;
+        cursor: pointer;
+    }
+    
+    .box-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box-4 i {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .third {
+        padding: 10px 0;
+        color: gray;
+        font-size: 0.7rem;
+    }

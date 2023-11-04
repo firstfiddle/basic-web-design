@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+nav{
+    width: 100%;
+    height: 183px;
+}
+.top{
+    background: #410088;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.top i{
+    color: white;
+
+}
+.a1 i span{
+    font-family: monospace;
+}
+.a1{
+    padding: 0 82px;
+    margin: 3px 10px;
+}
+.a2 i{
+    border: 1px solid #f6b11f;
+    cursor: pointer;
+    padding: 3px;
+ }
+.a2{
+    margin: 0 178px;
+}
+.home{
+    width: 100%;
+    height: 89px;
+    background: #9239a1;
+    display: flex;
+    justify-content:center;
+
+}
+.bd{
+    margin: 10px;
+}
+.bd1{
+    margin-right: 146px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+.bd2{
+    margin: 9px 0;
+}
+.menu{
+    width: 100%;
+    height: 43px;
+    background: linear-gradient(to bottom,#eabb0c 0%,#ffab2c 100%) 
+}
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    margin: 0 13px;
+    font-size: 1.5vw;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li :hover{
+    color: #410088;
+    text-decoration-line: underline;     
+}
+.maindiv{
+    width: 100%;
+    height: 275px;
+    background-image: url(../image/slider0.jpg);
+    background-size: 100% 100%;
+    margin-top: -26px;
+    animation: slider 9s infinite ;
+}
+@keyframes slider{
+    0%{background-image: url(../image/slider0.jpg);}
+    35%{background-image: url(../image/slider1.jpg);}
+    75%{background-image: url(../image/slider2.jpg);}
+}
+.mark{
+    width: 100%;
+    height: 42px;
+    background: url(http://ayushmanup.in/assets/images/city_background.png) #4d4090;
+    padding: 3px 100px;
+    margin-bottom: 44px;
+}
+marquee{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.a2 :hover{
+    background-color: #f6b11f;
+
+}
+.box{
+    margin: auto;
+    width: 74.3%;
+    height: 82px;
+    background: #f3f8f9;
+    border: 2px solid #c2d9de;
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+ .im img{
+    width: 80px;
+    height: 80px;
+
+    
+}
+
+.cha a{    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -63px;
+    left: 89px;
+    padding: 0 47px;
+    font-size: 10px;
+}
+.no{
+    position: relative;
+    top: -70px;
+    right: -91px;
+    color: orangered;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 63px;
+}
+.new{
+    margin: 0 53px;
+    box-shadow: 3px 0px 5px #c2d9de;
+    width: 86%;
+    height: 80px;
+}
+.sheet{
+    margin: auto;
+    width: 88%;
+    height: 557px;
+    /* background: yellow; */
+    display: flex;
+}
+.data{
+    margin-bottom: 68px;
+}
+.text{
+    width: 457px;
+    height: 378px;
+}
+.text p{
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+}
+.text button{
+    background: #4d4090;
+    color: white;
+    width: 30%;
+    height: 46px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    margin-top: 35px;
+}
+.text button:hover{
+    background: #f6b11f;
+    transition: 1s;
+    
+}
+.icons{
+    width: 667px;
+    height: 535px;
+    /* background-color: red; */
+    margin-left: 61px;
+ }
+ .yogi{
+    background: #f3f4ff;
+    width: 667px;
+    height: 177px;
+ }
+ .yogi1{
+    background: #f3f4ff;
+    width: 333px;
+    height: 102px;
+    margin-right: 7px;
+    display: flex;
+
+ }
+ .yogi2{
+    background: #f3f4ff;
+    width: 326px;
+    height: 101px;
+    position: relative;
+    top: -120px;
+    right: -342px;
+    display: flex;
+ }
+.baba{
+    margin: 0 284px;
+    padding: 10px 0;
+}
+.conte h3{
+    color: #4d4090;
+    font-size: 23px;
+    font-style: inherit;
+    font-weight: 1000;
+    margin-left: 225px;
+    padding-bottom: 6px;
+}
+.cm h3{
+    font-size: 16px;
+    margin-left: 190px;
+    color: #000000c2;
+}
+.yogi1 img{
+    width: 58%;
+    margin: 6px;
+}
+.parth{
+    width: 61%;
+    height: 100px;
+   
+}
+.name h3{
+    font-size: 15px;
+    color: #4d4090;
+    font-family: revert;
+    margin: 7px 0;
+    margin-left: -28px;
+}
+.yogi2 img{
+    width: 53%;
+    margin: 6px;
+}
+.row{
+    margin: auto;
+    width: 88%;
+    height: 350px;
+    /* background: yellow;  */
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.q{
+    width: 29.33%;
+    height: 320px;
+    background: steelblue;
+    border-radius: 15px 15px 0 0;
+} 
+.q1{
+    background: steelblue;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 9px 30px;
+    text-align: center;
+}
+.z{
+    background-color: #f5f5dc;
+    width:100%;
+    height: 268px;
+    padding: 11px;
+}
+.links p a{
+    text-decoration: none;
+    color: black;
+}
+.links p{
+    margin-bottom: 10px;
+    font-family: math;
+    font-size: 19px;
+}
+.pic{
+    background: url(http://ayushmanup.in/assets/images/city_background.png) #2c4a78;
+    width: 100%;
+    height: 200px;
+    opacity: 114%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -4px;
+}
+.ya{
+    width: 442.5px;
+    height: 200px;
+    /* background: red; */
+}
+.yb{
+    width: 640.5px;
+    height: 200px;
+    /* background: red; */
+}
+.yb1{
+    color: #ffcd00;
+    margin: 50px;
+    font-weight: 700;
+    font-size: 42px;
+}
+.yc{
+    width: 250px;
+    height: 200px;
+    /* background: red; */
+}
+.yc button{
+    background: #ffcd00;
+    border: none;
+    width: 53%;
+    height: 53px;
+    color: white;
+    margin: 60px;
+    font-size: larger;
+}
+.yc button:hover{
+    background: blue;
+    transition: all 0.3s ease-in-out;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    /* background: goldenrod; */
+    padding: 34px;
+    font-family: math;
+}
+.details{
+    width: 100%;
+    height: 249px;
+    /* background: #9239a1; */
+    display: flex;
+    padding: 24px 68px;
+}
+.spe{
+    width: 4%;
+    height: 55px;
+    background: #33537b;
+    text-align: center;
+    padding: 10px 0px;
+}
+.material{
+    width: 90%;
+    height: 181px;
+    /* background: #eabb0c; */
+    margin: 21px 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.gallery{
+    width: 100%;
+    height: 273px;
+    background: #f3f4ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    margin-top: -38px;
+}
+.gal1{
+    width: 300px;
+    height: 170px;
+    /* background: #eabb0c; */
+}
+.slider{
+    width: 100%;
+    height: 106px;
+    padding: 23px 6px;
+}
+footer{
+    width: 100%;
+    height: 488px;
+    background: #32363a;
+    display: flex;
+    justify-content: space-around;
+}
+.footer1{
+    width: 33%;
+    height: 480px;
+    /* background: #9239a1; */
+}
+.naam{
+    color: white;
+    font-size: 21px;
+    font-family: math;
+    margin: 23px 74px;
+}
+.anker{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.anker1{
+    width: 45%;
+    height: 397px;
+    margin-left: 58px;
+     
+}
+.anker1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+.anker a:hover{
+    color: #ffcd00;
+}
+.non h2{
+    font-family: monospace;
+    font-size: 17px;
+    color: whitesmoke;
+    margin-left: 83px;
+}
+.finish{
+    width: 100%;
+    height: 50px;
+    background: #3b4044;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    color: #cecece;
+    font-size: 14px;
+}
+.n{
+    font-size: 30px;
+    color: #ffcd00;
+    font-family: math;
+    font-weight: 800;
+}
+
+
+
+ 

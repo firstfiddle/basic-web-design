@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/zomato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+
+<body onload="fun()">
+    <div id="load"></div>
+    <script>
+        function fun(){
+            let preloader=document.getElementById("load")
+            preloader.style.display='none';
+        }
+    </script>
+    
+    <div class="nav">
+        <div class="hello">
+            <!-- div start get the app -->
+            <div class="get">
+                <div style="margin-right: 170px;">
+                    <i class="fa-solid fa-mobile-screen-button"></i> &nbsp;
+                    <span>Get the App</span>
+                </div>
+                <div class="span">
+                    <span>Invester Relations</span>
+                    <span>Add restaurants</span>
+                    <span>Log in </span>
+                    <span>Sign up</span>
+                </div>
+            </div>
+            <!-- div end get the app -->
+            <div class="zamato">
+                <div>
+                    <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+                </div>
+                <div class="dis">Discover the best food & drinks in Delhi NCR
+
+                </div>
+                <div class="div">
+                    <div>
+                        <i style="color: deeppink; font-size: 23px;" class="fa-solid fa-location-dot fa-flip"></i>&nbsp;
+                        <span class="in"><input type="text" name="" id="" placeholder="phase-1,new gali,morena"></span>&nbsp;
+                        <span ><i class="fa-solid fa-caret-down fa-flip"></i></span>&nbsp;
+                        <span>| &nbsp;</span>
+                </div>
+                <div class="search">
+                    &nbsp;&nbsp;<i class="fa-solid fa-magnifying-glass fa-beat"></i>&nbsp;&nbsp;
+                   <span class="inot"><input type="text" placeholder="Search for restaurants">
+                   </span>
+                </div>
+
+                </div>
+                 
+
+            </div>
+        </div>
+        <img style="background:chocolate;" class="animate__animated animate__zoomIn" src="	https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="">
+        <div>
+
+        </div>
+    </div>
+    <section class="space">
+        <!-- order tiles -->
+        <div class="sec-1">
+            <div class="box">
+                <div class="white">
+                    <p>Order Food Online</p>
+                </div>
+                <img 
+                    src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>Go out for a meal</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>Zomato Pro</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>Nightlife & Clubs</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/8ff4212b71b948ed5b6d2ce0d2bc99981594031410.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+        </div>
+        <!--order end-->
+        <div class="sec-2">
+            <h2>Collections</h2>
+            <div>
+                <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</h6>
+                <span>All collections in Delhi NCR &nbsp;<i class="fas fa-caret-right"></i></span>
+            </div>
+        </div>
+        <!-- collections -->
+        <div class="sec-3">
+            <div class="box-1">
+                <div><span>Newly Opened <br> <span>17 Places <i class="fas fa-caret-right"></i></span> </span>
+                </div>
+                <img
+                    src="https://images.unsplash.com/photo-1577056922428-a511301a562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+            </div>
+            <div class="box-1">
+                <div><span>Trending This Week <br> <span>30 Places &nbsp; <i class="fas fa-caret-right"></i></span>
+                    </span>
+                </div>
+                <img
+                    src="https://st.focusedcollection.com/18590116/i/650/focused_209046464-stock-photo-closeup-view-variety-food-served.jpg">
+            </div>
+            <div class="box-1">
+                <div><span>Best of Delhi NCR <br> <span>157 Places &nbsp; <i class="fas fa-caret-right"></i></span>
+                    </span>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Nadi_Sri_Siva_Subramaniya_Temple.jpg">
+            </div>
+            <div class="box-1">
+                <div><span>Great Cafes <br> <span>28 Places &nbsp; <i class="fas fa-caret-right"></i></span> </span>
+                </div>
+                <img
+                    src="https://content3.jdmagicbox.com/comp/def_content/lighting-dealers/shutterstock-315700163-lighting-dealers-1-xz4up.jpg?clr=443922">
+            </div>
+        </div><!--sec-3 end-->
+        <!-- address -->
+        <h1 class="h1">Popular localities in and around <strong> Delhi NCR</strong></h1>
+        <div class="sec-4">
+            <div class="box-2">
+                <div>
+                    <span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span><i
+                        class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="box-2">
+        
+                <div><span>42, Meena Bagh, New Delhi</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>4, Ferozeshah Road, New Delhi</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>C-1/6, Pandara Park, New Delhi 110003</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>Bunglow No.9, Teen Murti Lane, </span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>C-403, Swarna Jayanti Sadan,Dr. B.D. Marg</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>2, Lodhi Estate, New Delhi 110003</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>AB 89 Shahjahan Road New Delhi 110011</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>201, Brahmaputra Apartment, BD Marg, New Delhi. 110001</span><i
+                        class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>2, Jantar Mantar Road, New Delhi 110011</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>C-404, Swarna Jayanti Sadan, Dr. B.D. Marg,</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span>11, Safdarjung Road, New Delhi 110011</span><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-5">
+
+        <!-- form -->
+        <div class="flexcontact">
+
+            <!-- form image -->
+            <div class="img">
+                <img src="https://b.zmtcdn.com/data/pro/5722d9e687511d79616bcab92470734e1596187147.png">
+            </div>
+            <!-- form details -->
+            <div class="address">
+                <h2>Get the Zomato App</h2>
+                <p>We will send you a link, open it on your phone to download <br> the app </p>
+                <div class="flexradio">
+
+                    <!-- E-mail  -->
+                    <div>
+                        <input type="radio" name="fill" id="email" checked>
+                        <label class="label" for="email">Email</label>
+                    </div>
+
+                    <!-- phone -->
+                    <div>
+                        <input type="radio" name="fill" id="phone">
+                        <label class="label" for="phone">Phone</label>
+                    </div>
+                </div>
+                <div class="flexemail">
+                    <input class="input" type="text" placeholder="Email">
+
+                    <!-- E-mail Placeholder -->
+                    
+                    <button >Share App Link</button>
+                </div>
+                <p class="download">Download app from</p>
+                <div class="flexapp">
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png">
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg">
+        <h1 class="ex">Explore options near me </h1>
+        <div class="bg1">
+            <h1>Popular cuisines near me </h1>
+            <span><i class="fas fa-chevron-right"></i></span>
+        </div>
+        <div class="bg1">
+            <h1>Popular restaurant types near me</h1>
+            <span><i class="fas fa-chevron-right"></i></span>
+        </div>
+        <div class="bg1">
+            <h1>Top Restaurant Chains</h1>
+            <span><i class="fas fa-chevron-right"></i></span>
+        </div>
+        <div class="bg1">
+            <h1>Cities We Deliver To</h1>
+            <span><i class="fas fa-chevron-right"></i></span>
+        </div>
+
+    </div>
+    <footer>
+        <div class="logo">
+            <div>
+            <img width="125px" height="28px" src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+        </div>  
+        <div style="display: flex;">
+            <div class="india">Indai</div>&nbsp;&nbsp;&nbsp;
+            <div class="india">English</div>
+        </div>  
+        </div>
+        <div class="last">
+            <div class="a">
+                <h6 class="ma">ABOUT ZOMATO</h6>
+                <a href="#">Who We Are</a>
+                <a href="#">Blog</a>
+                <a href="#">Work with Us</a>
+                <a href="#">Invester relations</a>
+                <a href="#">Report Fraud</a>
+                <a href="#">Press Kit</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="a">
+                <h6 class="ma">ZOMAVERSE</h6>
+                <a href="#">Zomato</a>
+                <a href="#">Blinkit</a>
+                <a href="#">Feeding India</a>
+                <a href="#">Hyperpure</a>
+                <a href="#">Zomaland</a>
+            </div>
+            <div class="a">
+                <h6 class="ma">FOR RESTAURANTS</h6>
+                <a href="#">Parters With Us</a>
+                <a href="#">Apps for You</a>
+                <h6 style="margin-bottom: -3px;" class="ma">FOR ENTERPRISES</h6>
+                <a href="#">Zomato for Interprise</a>
+            </div>
+            <div class="a">
+                <h6 class="ma">learn More  </h6>
+                <a href="#">Privacy</a>
+                <a href="#">security</a>
+                <a href="#">terms</a>
+                <a href="#">Sitemap</a>
+                 
+            </div>
+            <div style="    position: relative;
+            left: 54px;" >
+                <h6 class="ma">Social Links</h6>
+                <div class="icons">
+                    <span><i class="fa-brands fa-linkedin fa-beat-fade"></i></span>
+                    <span><i class="fa-brands fa-instagram fa-beat-fade"></i></span>
+                    <span><i class="fa-brands fa-twitter fa-beat-fade"></i></span>
+                    <span><i class="fa-brands fa-youtube fa-beat-fade"></i></span>
+                    <span><i class="fa-brands fa-facebook fa-beat-fade"></i></span>
+                    <br><br>
+                    <img width="40%" src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                 <br><br>
+                 <img width="40%" src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                </div>
+                 
+        </div>
+        </div>
+        <hr style="margin-top: 56px;">
+        <p class="third">&copy; Designed By Developer Dude, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+        </div>         
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background:  #ff8800;
+    display: flex;
+    justify-content: flex-start;
+}
+.best a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.best{
+    background: #e67a00;
+    width: 255px;
+    height: 55px;
+    text-align: center;
+    padding: 21px 0px;
+    margin: 0px 38px 0 118px;
+}
+ .home a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.home{
+    margin: 22px 0 0 -6px;
+}
+.banner{
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg); 
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+input{
+    outline: none;
+    background: black;
+    color: white;
+    outline: none;
+    background: #00000080;
+    color: white;
+    width: 582px;
+    height: 38px;
+    font-size: 17px;
+    box-shadow: -2px 1px 4px white;
+    margin: 14px 0;
+}
+
+::placeholder{
+    color: #666;
+}
+.hii{
+    padding: 150px 0;
+    margin-left: 10px;
+}
+.row{
+    width: 100%px;
+    height: 200px;
+}
+.hom{
+    background-position: center;
+    background-size: cover;
+    width: 372px;
+    height: 267px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin: 5px 8px;
+    padding: 3px 4px;
+}
+      
+.hom h2{
+    color: white;
+    padding: 231px 0 0 146px;
+    text-shadow: 1px 0px 2px white;
+    font-family: math;
+}
+.org{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    padding: 5px 92px
+}
+.bp1{
+    background: url(https://bestschool.net.in//images/top_schools_of_Mumbai.png);
+    background-position: center;
+    background-size: cover
+}
+.bp2{
+    background: url(https://bestschool.net.in//images/top_schools_of_Chennai.png);
+    background-position: center;
+    background-size: cover
+}
+.bp3{
+    background: url(https://bestschool.net.in//images/top_schools_of_Bangalore.png);
+    background-position: center;
+    background-size: cover
+}
+.bp4{
+    background: url(https://bestschool.net.in//images/top_schools_of_Delhi-NCR.png);
+    background-position: center;
+    background-size: cover
+}
+.bp5{
+    background: url(https://bestschool.net.in//images/top_schools_of_Hyderabad.png);
+    background-position: center;
+    background-size: cover
+}
+.bp6{
+    background: url(https://bestschool.net.in//images/top_schools_of_Kolkata.png);
+    background-position: center;
+    background-size: cover
+}
+.bp7{
+    background: url(https://bestschool.net.in//images/top_schools_of_Pune.png);
+    background-position: center;
+    background-size: cover
+}
+.bp8{
+    background: url(https://bestschool.net.in//images/top_schools_of_Lucknow.png);
+    background-position: center;
+    background-size: cover
+}
+.bp9{
+    background: url(https://bestschool.net.in//images/top_schools_of_Ahmedabad.png);
+    background-position: center;
+    background-size: cover
+}
+.bp10{
+    background: url(https://bestschool.net.in//images/top_schools_of_Jaipur.png);
+    background-position: center;
+    background-size: cover
+}
+.bp11{
+    background: url(https://bestschool.net.in//images/top_schools_of_Dehradun.png);
+    background-position: center;
+    background-size: cover
+}
+.bp12{
+    background: url(https://bestschool.net.in//images/top_schools_of_Surat.png);
+    background-position: center;
+    background-size: cover
+}
+.btn button{
+    padding: 10px;
+    border: snow;
+    color: white;
+    background: rgb(255, 136, 0);
+    border-radius: 30px;
+    width: 202px;
+    height: 51px;
+    font-size: 26px;
+    margin: 37px 573px;
+    cursor: pointer;
+}
+.foot{
+    width: 100%;
+    height: 225px;
+    background-color: #f7f7f7;
+}
+.foot h1{
+    color: #666666;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 38px;
+    padding: 83px 228px;
+}
+.foot h3{
+    cursor: pointer;
+    color: #ff8800;
+    font-size: 13px;
+    margin: 0 72px;
+    padding: 72px 38px;
+}
+
+.foot h4{
+    color: #666666;
+    padding: 3px 110px;
+    font-size: 12px;
+    font-family: math;
+}
+.btn :hover{
+    background: rgba(0, 0, 0, 0.495);
+}
+ 

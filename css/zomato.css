@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+
+}
+
+.nav {
+    position: relative;
+}
+
+.hello {
+    position: absolute;
+    z-index: 1;
+}
+
+.get {
+    color: rgb(255 255 255 / 98%);
+    display: flex;
+    width: 160%;
+    justify-content: space-around;
+    font-size: 21px;
+    padding: 24px 2px;
+}
+
+.span span {
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.get div:first-child {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.zamato {
+    display: grid;
+    grid-row-gap: 37px;
+    justify-content: center;
+    width: 160%;
+}
+
+.zamato img {
+    width: 65%;
+    height: 70px;
+    margin: 0 150px;
+    object-fit: contain;
+}
+
+.dis {
+    font-size: 37px;
+    color: white;
+    font-family: math;
+    font-weight: 300;
+}
+
+.div {
+    width: 100%;
+    height: 87%;
+    border-radius: 10px;
+    /* border: none; */
+    box-shadow: 3px 4px 30px black;
+    background: white;
+    display: flex;
+    justify-content: left;
+    padding: 17px 8px;
+}
+
+.lo {
+    font-weight: bolder;
+    color: deeppink;
+    font-size: 23px;
+}
+
+.in input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.inot input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+
+.space {
+    margin: 60px 120px;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    cursor: pointer;
+    width: 265px;
+    height: 245px;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgb(173, 173, 173);
+    background-color: rgb(243, 240, 240);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(204, 203, 203);
+}
+
+.white {
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 15px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+.white P {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0.7px;
+}
+
+.sec-2 h2 {
+    font-size: 38px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.sec-2 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.sec-2 h6 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb (99, 98, 98);
+}
+
+/* .fa-caret-right,
+.sec-2 span{
+
+} */
+.box-1 {
+    width: 270px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box-1 div {
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.box-1 div span:first-child {
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-bottom: 5px;
+
+
+}
+
+.box-1 i {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.box-1 img {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.sec-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb (56, 56, 56);
+}
+
+.sec-4 {
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+
+}
+
+.box-2 {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 233, 233);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-2 div {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.box div span {
+    color: rgb(65, 64, 64);
+    font-size: 19px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.flexcontact {
+    display: flex;
+
+}
+
+.img img {
+    height: 95%;
+    width: 52%;
+    object-fit: cover;
+    margin-left: 142px
+}
+
+.img {
+    width: 418px;
+    height: 450px;
+}
+
+.sec-5 {
+    background: linear-gradient(transparent, #0000002b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 459px;
+    border: 1px solid #f6f6f6;
+}
+
+.address {
+    display: grid;
+    
+}
+
+.address h2 {
+    font-size: 50px;
+    font-family: math;
+    margin-bottom: -16px;
+}
+
+.label {
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.address p {
+    font-size: 21px;
+    color: #000000ba;
+    margin-top: -23px;
+}
+
+.flexradio {
+    display: flex;
+    margin-top: -34px;
+}
+
+
+.flexemail input {
+    width: 292px;
+    height: 48px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 21px;
+    padding: 0 9px;
+    border-color: #00000059;
+}
+
+.flexemail button {
+
+    border: none;
+    width: 150px;
+    height: 48px;
+    border-radius: 10px;
+    background: rgb(224, 53, 70);
+    border-color: rgb(36, 150, 63);
+    font-size: 19px;
+    color: #fff;
+}
+
+
+.flexapp img {
+    width: 32%;
+    height: 45px;
+}
+
+.bg {
+    background: #fcfcfc82;
+    width: 100%;
+    height: 492px;
+    display: grid;
+    margin-top: 111px;
+}
+
+.bg1 {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 1px 0px 2px black;
+    width: 80%;
+    margin: auto;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 13px;
+}
+
+.bg1 h1 {
+    font-weight: 100;
+    font-size: 28px;
+    font-family: math;
+    letter-spacing: -1px;
+    color: #0000008f;
+}
+
+.ex {
+    margin: auto;
+    width: 79%;
+    font-size: 39px;
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+footer {
+    width: 100%;
+    height: 409px;
+    background: #f8f8f8;
+    padding: 20px 110px;
+
+}
+
+.india {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 21px;
+    padding: 6px 33px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 68px;
+}
+.flexemail{
+    margin-top: -55px;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 64px;
+}
+.flexapp{
+    margin-top: -60px;
+}
+
+.a {
+    display: grid;
+}
+
+.a a {
+    text-decoration: none;
+    color: #00000085;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 7px;
+    line-height: 13px;
+}
+
+.ma {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.icons span {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.third {
+    padding: 10px 0;
+    color: gray;
+    font-size: 1.0rem;
+}
+#load{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff url(https://www.animatedimages.org/data/media/202/animated-dog-image-0182.gif) 
+    no-repeat;
+    z-index: 10000;
+}
